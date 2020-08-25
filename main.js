@@ -1,4 +1,4 @@
-var answers = ["la fattezze", "l'arazzo", "lo scampo", "il lampo", , "il tramonto"];
+var answers = ["la fattezze", "l'arazzo", "lo scampo", "il lampo", "il tramonto"];
 var answersNext = ["afflievolire", "raccapezzarsi", "togliere", "architettare", "gabbare"];
 var answersNextTo = ["la dabbengaggine", "la cilecca", "il fiato", "l'anta", "il timulto"];
 // var answersNextToNext = ["", "", "", "", ""];
@@ -21,11 +21,11 @@ var tralivali = [{
         answers: answers,
         correct: 1
     }, {
-        question: 'молния',
+        question: 'спасение',
         answers: answers,
         correct: 2
     }, {
-        question: 'спасение',
+        question: 'молния',
         answers: answers,
         correct: 3
     }, {
