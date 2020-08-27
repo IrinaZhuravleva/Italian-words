@@ -10,12 +10,9 @@ var button = document.querySelector('button');
 button.disabled = true;
 
 var tralivali = [{
-    //
-    }, {
         question: 'телосложение',
         answers: answers,
         correct: 0
-
     }, {
         question: 'гобелен',
         answers: answers,
@@ -134,8 +131,11 @@ expressionNumber.innerText = `Слово: ${currentQuestionIndex + 1} из ${tra
 //     incorrect: 0
 // }
 
+var questionToShow;
+
 function showQuestion() {
     var questionToShow = selectQuestion();
+    button.disabled = true;
     addQuestionToSite(questionToShow);
 }
 
