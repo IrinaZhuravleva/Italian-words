@@ -10,115 +10,114 @@ var button = document.querySelector('button');
 button.disabled = true;
 
 var tralivali = [{
-        question: 'телосложение',
-        answers: answers,
-        correct: 0
-    }, {
-        question: 'гобелен',
-        answers: answers,
-        correct: 1
-    }, {
-        question: 'спасение',
-        answers: answers,
-        correct: 2
-    }, {
-        question: 'молния',
-        answers: answers,
-        correct: 3
-    }, {
-        question: 'закат',
-        answers: answers,
-        correct: 4
+    question: 'телосложение',
+    answers: answers,
+    correct: 0
+}, {
+    question: 'гобелен',
+    answers: answers,
+    correct: 1
+}, {
+    question: 'спасение',
+    answers: answers,
+    correct: 2
+}, {
+    question: 'молния',
+    answers: answers,
+    correct: 3
+}, {
+    question: 'закат',
+    answers: answers,
+    correct: 4
     //
-    }, {
-        question: 'ослаблять',
-        answers: answersNext,
-        correct: 0
+}, {
+    question: 'ослаблять',
+    answers: answersNext,
+    correct: 0
 
-    }, {
-        question: 'разбираться',
-        answers: answersNext,
-        correct: 1
-    }, {
-        question: 'отнимать',
-        answers: answersNext,
-        correct: 2
-    }, {
-        question: 'проектировать',
-        answers: answersNext,
-        correct: 3
-    }, {
-        question: 'обманывать',
-        answers: answersNext,
-        correct: 4
+}, {
+    question: 'разбираться',
+    answers: answersNext,
+    correct: 1
+}, {
+    question: 'отнимать',
+    answers: answersNext,
+    correct: 2
+}, {
+    question: 'проектировать',
+    answers: answersNext,
+    correct: 3
+}, {
+    question: 'обманывать',
+    answers: answersNext,
+    correct: 4
     //
-    }, {
-        question: 'простодушие',
-        answers: answersNextTo,
-        correct: 0
+}, {
+    question: 'простодушие',
+    answers: answersNextTo,
+    correct: 0
 
-    }, {
-        question: 'насмешка',
-        answers: answersNextTo,
-        correct: 1
-    }, {
-        question: 'дыхание',
-        answers: answersNextTo,
-        correct: 2
-    }, {
-        question: 'створка шкафа',
-        answers: answersNextTo,
-        correct: 3
-    }, {
-        question: 'волнение',
-        answers: answersNextTo,
-        correct: 4
-   //
-//    }, {
-//        question: '',
-//        answers: answersNextToNextTo,
-//        correct: 0
+}, {
+    question: 'насмешка',
+    answers: answersNextTo,
+    correct: 1
+}, {
+    question: 'дыхание',
+    answers: answersNextTo,
+    correct: 2
+}, {
+    question: 'створка шкафа',
+    answers: answersNextTo,
+    correct: 3
+}, {
+    question: 'волнение',
+    answers: answersNextTo,
+    correct: 4
+    //
+    //    }, {
+    //        question: '',
+    //        answers: answersNextToNextTo,
+    //        correct: 0
 
-//    }, {
-//        question: '',
-//        answers: answersNextToNextTo,
-//        correct: 1
-//    }, {
-//        question: '',
-//        answers: answersNextToNextTo,
-//        correct: 2
-//    }, {
-//        question: '',
-//        answers: answersNextToNextTo,
-//        correct: 3
-//    }, {
-//        question: '',
-//        answers: answersNextToNextTo,
-//        correct: 4
-//    //
-//    }, {
-//        question: '',
-//        answers: answersFive,
-//        correct: 0
+    //    }, {
+    //        question: '',
+    //        answers: answersNextToNextTo,
+    //        correct: 1
+    //    }, {
+    //        question: '',
+    //        answers: answersNextToNextTo,
+    //        correct: 2
+    //    }, {
+    //        question: '',
+    //        answers: answersNextToNextTo,
+    //        correct: 3
+    //    }, {
+    //        question: '',
+    //        answers: answersNextToNextTo,
+    //        correct: 4
+    //    //
+    //    }, {
+    //        question: '',
+    //        answers: answersFive,
+    //        correct: 0
 
-//    }, {
-//        question: '',
-//        answers: answersFive,
-//        correct: 1
-//    }, {
-//        question: '',
-//        answers: answersFive,
-//        correct: 2
-//    }, {
-//        question: '',
-//        answers: answersFive,
-//        correct: 3
-//    }, {
-//        question: '',
-//        answers: answersFive,
-//        correct: 4
-   }
-];
+    //    }, {
+    //        question: '',
+    //        answers: answersFive,
+    //        correct: 1
+    //    }, {
+    //        question: '',
+    //        answers: answersFive,
+    //        correct: 2
+    //    }, {
+    //        question: '',
+    //        answers: answersFive,
+    //        correct: 3
+    //    }, {
+    //        question: '',
+    //        answers: answersFive,
+    //        correct: 4
+}];
 
 var currentQuestionIndex = 0;
 var expressionNumber = document.querySelector('.expression-number');
